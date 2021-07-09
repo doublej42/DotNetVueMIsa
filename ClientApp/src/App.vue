@@ -44,11 +44,11 @@
 </template>
 
 <script lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
+//import HelloWorld from '@/components/HelloWorld.vue'
 import { Component, Vue } from 'vue-property-decorator'
 
 @Component({
-  components: { HelloWorld }
+  //components: { HelloWorld }
 })
 export default class App extends Vue {
   private clipped = true
@@ -59,7 +59,9 @@ export default class App extends Vue {
   private items = [
     { title: 'Home', icon: 'mdi-home', link: '/' },
     { title: 'Counter', icon: 'mdi-gesture-tap', link: '/counter' },
-    { title: 'Fetch data', icon: 'mdi-download', link: '/fetch-data' }
+    { title: 'Fetch data', icon: 'mdi-download', link: '/fetch-data' },
+    { title: 'Simple Sample', icon: 'mdi-heart', link: '/simple-sample' }
+
   ]
 }
 </script>

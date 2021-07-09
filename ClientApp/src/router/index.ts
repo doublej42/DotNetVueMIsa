@@ -22,6 +22,11 @@ const routes: Array<RouteConfig> = [
     path: '/fetch-data',
     name: 'fetch-data',
     component: () => import(/* webpackChunkName: "fetch-data" */ '../views/FetchData.vue')
+  },
+  {
+    path: '/simple-sample',
+    name: 'simple-sample',
+    component: () => import(/* webpackChunkName: "simple-sample" */ '../views/SimpleSample.vue')
   }
 ]
 
